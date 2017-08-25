@@ -32,7 +32,7 @@ Located near the middle of the returned JSON: <br />
     }]
 }
 ```
-Some government positions, such as Commissioners, have multiple representatives. This made matching an official's title, name, and information particularly difficult. Also, different states and cities have different representatives and different positions require different amounts of people to fill them. While Federal officials (the President and the Vice-President) and Congressional officials constantly occupy the same positions in the JSON, state and city officials move. The program dynamically searches for state and county officials using the 'divisionID' to solve this. The result, for this particular official, after running this program is:
+Some government positions, such as Commissioners, have multiple representatives. This made matching an official's title, name, and information particularly difficult. Also, different states and cities have different representatives and different positions require different amounts of people to fill them. While federal officials (the President and the Vice-President) and Congressional officials constantly occupy the same positions in the JSON, state and city officials move. The program dynamically searches for state and county officials using the 'divisionID' key to solve this. The result, for this particular official, after running this program is:
 ```
 {'party': 'Democratic', 'address': [{'state': 'DC', 'city': 'Washington', 'zip': '20515', 'line1': '2307 Rayburn House Office Building'}], 'phones': ['(202) 225-4865'], 'tier': 'congress', 'name': 'Lloyd Doggett', 'title': 'United States House of Representatives TX-35'}
  ```
