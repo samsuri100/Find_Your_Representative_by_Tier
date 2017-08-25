@@ -23,7 +23,7 @@ class Find_My_Representative_UIViewController: UIViewController {
         let state = "Tx".lowercased()  // has to be lowercase
         let zip = "78712"
 
-        let google_rep_secret = "AIzaSyC8UdgSie84y3sSSTrx0_pdMfH5K79C1MY"  // google Civic secret, ID is not needed
+        let google_rep_secret = ""  // google Civic secret, ID is not needed
         let google_civic_url = "https://www.googleapis.com/civicinfo/v2/representatives/?key="+google_rep_secret+"&includeOffices=True&address="+address+", "+city+", "+state+", "+zip
         // Adds %20 in URL where spaces are present
         let encoded_url:String = google_civic_url.addingPercentEncoding( withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
