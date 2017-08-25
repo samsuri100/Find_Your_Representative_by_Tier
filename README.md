@@ -2,7 +2,7 @@
 The program parses the Google Civic Information 'representativeInfoByAddress' API and returns an array of dictionaries, that each contain the title, name, and personal information of every representative for a particular address, that the user inputs. Additionally, the program dynamically sorts each government official into 4 tiers: Federal, Congressional, State, and County, so that each official is classified correctly, regardless if different regions have different positions or different amount of representatives. This program was developed for Battleground Texas, a non-profit in Austin, Texas. This repository contains two different versions of the program, one written in Python, and one written in Swift. This allows the program to have a greater impact on society. 
 
 ## Technical Overview
-The JSON, when first called from Google, is in a scattered format. For example, looking at just one offical: <br />
+The JSON, when first called from Google, is in a scattered format. For example, looking at just one official: <br />
 Located near the top of the returned JSON: <br />
 ```
 {
